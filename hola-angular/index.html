@@ -1,0 +1,17 @@
+<head>
+	<script src="bower_components/traceur/traceur.js"></script>
+	<script src="dist/system.js"></script>
+	<script src="dist/angular2.dev.js"></script>
+	<script>
+		// configurando SystemJS
+		System.config({
+			baseURL: ''
+		});
+	
+		// cargando script principal
+		System.import('src/app.js');
+	</script>
+</head>
+<body>
+	<app></app>
+</body>
