@@ -1,0 +1,21 @@
+{
+  "name": "Angular 2 - Intro",
+  "authors": [
+    "Cristian Rios <mcristianrios@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "APACHE 2",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "traceur": "~0.0.92"
+  }
+}
