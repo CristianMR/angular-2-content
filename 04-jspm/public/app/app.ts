@@ -1,5 +1,5 @@
-// importamos la librería de angular2
-import {bootstrap, Component, View} from 'angular2/angular2';
+// importamos los componentes a utilizar
+import {Component, View} from 'angular2/core';
 
 // configuramos la aplicación
 @Component({
@@ -12,7 +12,7 @@ import {bootstrap, Component, View} from 'angular2/angular2';
 		(click)="agregarAlgo(camina);" value="Clickeame"/>
 	`
 })
-class Application {
+export class Application {
 	camina;
 	algo;
 	constructor () {
@@ -28,12 +28,3 @@ class Application {
 		this.algo += contenido;
 	}
 }
-
-// iniciamos la aplicación
-bootstrap(Application, [])
-.then(function () {
-	console.log('Se inicio angular');
-})
-.catch(function (error) {
-	console.error(error);
-});
