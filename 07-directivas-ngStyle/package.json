@@ -1,0 +1,17 @@
+{
+  "jspm": {
+    "directories": {
+      "baseURL": "public"
+    },
+    "dependencies": {
+      "@reactivex/rxjs": "npm:@reactivex/rxjs@^5.0.0-beta.0",
+      "angular2": "npm:angular2@^2.0.0-beta.0",
+      "es6-shim": "github:es-shims/es6-shim@^0.34.0",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "zone.js": "npm:zone.js@^0.5.10"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.7.5"
+    }
+  }
+}
