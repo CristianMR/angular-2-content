@@ -1,6 +1,6 @@
-### 07-directivas-ngStyle
+### 08-directivas-attribute parte 2
 
-El contenido de esta carpeta hace referencia a [este video](https://youtu.be/E3gkU87ALAI)
+El contenido de esta carpeta hace referencia a [este video](https://youtu.be/ZBUhbm01Khc)
 
 ### Para ejecutar el código
 
